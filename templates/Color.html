@@ -1,5 +1,10 @@
 {% extends "layout.html" %}
 
 {% block content %}
-
+<div class="align-middle">
+    <h1 class="text-white text-center bg-dark">Color de Fondo {{ Colores[Aleatorio] }}</h1>
+    <center>
+        <button onclick="window.location.href='{{ url_for( 'Inicio') }}';" type="button text-center" class="btn btn-dark">Click Me</button>
+    </center>
+</div>
 {% endblock %}
