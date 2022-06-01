@@ -16,4 +16,4 @@ def Inicio():
 
 #Inializacion del sitio web para correr(modo debug encendido para detectar cambios)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
